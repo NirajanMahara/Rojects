@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  font-family: sans-serif;
+}
+
+/* calculator div */
+
+.calculator {
+  width: 300px;
+  padding-bottom: 15px;
+  border-radius: 7px;
+  background-color: #fff;
+  box-shadow: -0px -0px 4px 0px #ffffff, 4px 4px 8px 0px #d1d9e6,
+    4px 4px 4px 0px #d1d9e6 inset, -4px -4px 4px 0px #ffffff inset;
+}
+
+.display {
+  width: 100%;
+  height: 80px;
+  border: none;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 2rem;
+  background-color: #fff;
+  color: #000;
+  text-align: right;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  box-shadow: -0px -0px 4px 0px #ffffff, 4px 4px 4px 0px #d1d9e6,
+    4px 4px 4px 0px #d1d9e6 inset, -4px -4px 4px 0px #ffffff inset;
+}
+/* soft */
+.soft {
+  display: flex;
+  justify-content: space-between;
+}
+/* soft style end */
+button {
+  width: 60px;
+  height: 50px;
+  border-radius: 20%;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #f8f2f2;
+  color: #000;
+  margin: 10px;
+  box-shadow: -0px -0px 0px 0px #000, 4px 0px 0px 0px #000,
+    0px 0px px 0px #000 inset, -4px -4px 4px 0px #000 inset;
+}
+button:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+/* soft-operator */
+
+.soft-operator {
+  background-color: #f1f1f1;
+  color: #000;
+  font-weight: bold;
+  box-shadow: -1px -1px 4px 0px #ffffff, 4px 4px 4px 0px #d1d9e6,
+    4px 4px 4px 0px #d1d9e6 inset, -4px -4px 4px 0px #ffffff inset;
+}
+.soft-operator:hover {
+  background-color: #ddd;
+  color: #000;
+  font-weight: bold;
+  box-shadow: -0px -0px 4px 0px #ffffff, 4px 4px 8px 0px #d1d9e6,
+    4px 4px 4px 0px #d1d9e6 inset, -4px -4px 4px 0px #ffffff inset;
+}
+/*make a blog to post all these your projects managed or unmanaged*/
